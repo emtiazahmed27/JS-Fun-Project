@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.spacing {
+  padding: 1rem;
+}
+
+.box-cont {
+  text-align: center;
+}
+
+.fluffy-img {
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: 1px solid #3498db;
+  border-radius: 1rem;
+  background: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3498db;
+  transition: background 400ms ease;
+}
+
+.btn:hover {
+  background-color: #3498db;
+  color: white;
+}
